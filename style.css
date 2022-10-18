@@ -1,0 +1,32 @@
+.index {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("media/backgrounds/tactile.png");
+    color: rgb(226, 226, 226);
+}
+
+.mtg {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("media/backgrounds/mtgbckgr.png");
+    height: 100%;
+    color: rgb(226, 226, 226)
+}
+
+.blue {
+    color: blue;
+}
+
+.black {
+    color: black;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.white {
+    color: white;
+}
