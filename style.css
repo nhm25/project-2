@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #navigation {
     background-color: rgb(49, 49, 49);
     float: left;
@@ -74,7 +78,6 @@ h1 {
 
 /*mtg section start*/
 .mtg {
-    font-family: Arial, Helvetica, sans-serif;
     background-image: url("media/backgrounds/red\ sky.jpg");
     height: 100%;
     color: rgb(226, 226, 226)
@@ -150,5 +153,34 @@ h1 {
 /*fortnite section start*/
 .fortnite {
     background-image: url("media/backgrounds/triangles.jpg");
+}
+
+.fortnite h1 {
+    text-shadow: 1px 1px 2px black;
+}
+
+.fortnite img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#disclaimer {
+    text-decoration-line: overline;
+    text-decoration-color:white;
+    text-decoration-style: wavy;
+}
+
+.fortnite h2 {
+    text-align: center;
+}
+
+.reasoning {
+    text-align: center;
+}
+
+#bonus {
+    text-align: unset;
+    text-shadow: 1px 1px 2px white;
 }
 /*fortnite section end*/
