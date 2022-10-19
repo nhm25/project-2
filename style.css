@@ -1,9 +1,58 @@
+#navigation {
+    background-color: rgb(49, 49, 49);
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+#navigation-bar {
+    position: relative;
+    float: left;
+    left: 50%;
+}
+
+#navigation-bar ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    right: 50%;
+}
+
+#navigation-bar ul li {
+    list-style-type: none;
+    float: left;
+}
+
+#navigation-bar ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+#navigation-bar ul li a:hover {
+    background-color: #000;
+}
+
+#onpage {
+    background-color: aqua;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+/*resume section start*/
 .index {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("media/backgrounds/tactile.png");
     color: rgb(226, 226, 226);
 }
+/*resume section end*/
 
+/*mtg section start*/
 .mtg {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("media/backgrounds/mtgbckgr.png");
@@ -30,3 +79,10 @@
 .white {
     color: white;
 }
+/*mtg section end*/
+
+/*fortnite section start*/
+.fortnite {
+    background-image: url("media/backgrounds/triangles.jpg");
+}
+/*fortnite section end*/
