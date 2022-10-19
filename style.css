@@ -50,34 +50,100 @@ h1 {
     background-image: url("media/backgrounds/tactile.png");
     color: rgb(226, 226, 226);
 }
+
+.index h2 {
+    text-align: center;
+    text-decoration-line: overline;
+    color: #fff;
+}
+
+.index p {
+    text-align: center;
+    line-height: 0.5;
+}
+
+.index li {
+    display: block;
+    overflow: auto;
+    list-style-type: none;
+    text-align: center;
+    line-height: 1.7;
+}
+
 /*resume section end*/
 
 /*mtg section start*/
 .mtg {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("media/backgrounds/mtgbckgr.png");
+    background-image: url("media/backgrounds/red\ sky.jpg");
     height: 100%;
     color: rgb(226, 226, 226)
 }
 
+#intro {
+    text-align: center;
+} 
+
+#intro-desc {
+    margin: auto;
+    width: 50%;
+    border: 4px solid white;
+    padding: 10px;
+}
+
+#blueimg {
+    margin: auto;
+    border: 4px solid #ABE1FA;
+    padding: 10px;
+}
+
+#blackimg {
+    margin: auto;
+    border: 4px solid #CCC3C0;
+    padding: 10px;
+}
+
+#redimg {
+    margin: auto;
+    border: 4px solid #F9AC90;
+    padding: 10px;
+}
+
+#greenimg {
+    margin: auto;
+    border: 4px solid #9CD4AF;
+    padding: 10px;
+}
+
+#whiteimg {
+    margin: auto;
+    border: 4px solid #FFFBD6;
+    padding: 10px;
+}
+.desc {
+    margin: 0;
+    width: 50%;
+    padding: 0;
+}
+
 .blue {
-    color: blue;
+    color: #ABE1FA;
 }
 
 .black {
-    color: black;
+    color: #CCC3C0;
 }
 
 .red {
-    color: red;
+    color: #F9AC90;
 }
 
 .green {
-    color: green;
+    color: #9CD4AF;
 }
 
 .white {
-    color: white;
+    color: #FFFBD6;
 }
 /*mtg section end*/
 
