@@ -14,6 +14,7 @@ body {
     float: left;
     width: 100%;
     display: block;
+    z-index: 1;
 }
 
 #navigation-bar {
@@ -60,7 +61,7 @@ h1 {
 /*resume section start*/
 .index {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("media/backgrounds/tactile.png");
+    background-image: url("../media/backgrounds/tactile.png");
     color: rgb(226, 226, 226);
 }
 
@@ -86,7 +87,7 @@ h1 {
 
 /*mtg section start*/
 .mtg {
-    background-image: url("media/backgrounds/red\ sky.jpg");
+    background-image: url("../media/backgrounds/red\ sky.jpg");
     height: 100%;
     color: rgb(226, 226, 226);
 }
@@ -160,35 +161,105 @@ h1 {
 
 /*fortnite section start*/
 .fortnite {
-    background-image: url("media/backgrounds/triangles.jpg");
+    background-image: url("../media/backgrounds/triangles.jpg");
 }
 
 .fortnite h1 {
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 0.063em 0.063em 0.13em black;
 }
 
-.fortnite img {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
+.fortnite h2 {
+    text-shadow: 0.063em 0.063em 0.13em white;
 }
 
 #disclaimer {
     text-decoration-line: overline;
-    text-decoration-color:rgb(42, 248, 145);
+    text-decoration-color:black;
     text-decoration-style: wavy;
+    text-shadow: 0.063em 0.063em 0.13em red;
 }
 
-.fortnite h2 {
-    text-align: center;
+.demogorgon {
+    padding: 2%;
 }
 
-.reasoning {
-    text-align: center;
+.demogorgon img {
+    float: left;
+    height: 50em;
 }
 
-#bonus {
-    text-align: unset;
-    text-shadow: 1px 1px 2px white;
+.demogorgon p {
+    position: relative;
+    float: left;
+    text-align: justify;
+    width: 50%;
+    left: 1%;
 }
+
+.demogorgon h2 {
+    position: relative;
+    top: 1em;
+    float: right;
+    right: 43%;
+}
+
+.lava {
+    position: relative;
+    float: right;
+    padding: 2%;
+    width: 95%;
+}
+
+.lava p {
+    position: absolute;
+    float: left;
+    top: 10.5%;
+    left: 13%;
+    width: 45%;
+    text-align: justify;
+}
+
+.lava h2 {
+    position: relative;
+    float: left;
+    left: 13%;
+}
+
+.lava img {
+    float: right;
+    width: 43em;
+}
+
+.skull {
+    display: block;
+    margin: auto;
+    padding: 2%;
+
+}
+
+.skull h2 {
+    position: relative;
+    float: right;
+    right: 33.5%;
+}
+
+.skull p {
+    position: relative;
+    float: right;
+    text-align: justify;
+    width: 40%;
+    right: 5.55em;
+    top: -45em;
+}
+
+.bonus audio {
+    position: relative;
+    float: right;
+    right: 58.5%;
+    top: -3.3em;
+}
+
+
+
+
 /*fortnite section end*/
