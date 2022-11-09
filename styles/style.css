@@ -80,7 +80,7 @@ h1 {
     overflow: auto;
     list-style-type: none;
     text-align: center;
-    line-height: 40px;
+    line-height: 27px;
 }
 
 /*resume section end*/
@@ -88,7 +88,6 @@ h1 {
 /*mtg section start*/
 .mtg {
     background-image: url("../media/backgrounds/red\ sky.jpg");
-    height: 100%;
     color: rgb(226, 226, 226);
 }
 
@@ -98,65 +97,142 @@ h1 {
 
 #intro-desc {
     margin: auto;
-    width: 50%;
-    border: 4px solid white;
+    width: 815px;
+    border: 4px solid rgb(226, 226, 226);
     padding: 10px;
+    text-align: justify;
 }
 
-#blueimg {
+.mtg img {
     margin: auto;
-    border: 4px solid #ABE1FA;
     padding: 10px;
+    border-radius: 150px;
 }
 
-#blackimg {
-    margin: auto;
-    border: 4px solid #CCC3C0;
-    padding: 10px;
+.mtg h1 {
+    text-shadow: 1px 1px 2px red
 }
 
-#redimg {
-    margin: auto;
-    border: 4px solid #F9AC90;
-    padding: 10px;
+.mtg h2 {
+    text-shadow: 1px 1px 2px black;
 }
 
-#greenimg {
-    margin: auto;
-    border: 4px solid #9CD4AF;
-    padding: 10px;
+/*white mana section start*/
+.white {
+    display: block;
+    position: absolute;
+    left: 682px;
+    width: 500px;
+    top: 310px;
+    text-align: center;
+    color: #FFFBD6;
 }
 
-#whiteimg {
-    margin: auto;
+.white ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.white img {
     border: 4px solid #FFFBD6;
-    padding: 10px;
 }
-.desc {
-    margin: 0;
-    width: 50%;
-    padding: 0;
-}
+/*white mana section end*/
 
+/*blue mana section start*/
 .blue {
+    display: block;
+    position: absolute;
+    right: 50px;
+    width: 500px;
+    top: 725px;
+    text-align: center;
     color: #ABE1FA;
 }
 
+.blue ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.blue img {
+    border: 4px solid #ABE1FA;
+}
+/*blue mana section end*/
+
+/*black mana section start*/
 .black {
+    display: block;
+    position: absolute;
+    right: 355px;
+    width: 500px;
+    top: 1270px;
+    text-align: center;
     color: #CCC3C0;
 }
 
+.black ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.black img {
+    border: 4px solid #CCC3C0;
+}
+/*black mana section end*/
+
+/*red mana section start*/
 .red {
+    display: block;
+    position: absolute;
+    left: 355px;
+    width: 500px;
+    top: 1270px;
+    text-align: center;
     color: #F9AC90;
 }
 
+.red ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.red img {
+    border: 4px solid #F9AC90;
+}
+/*red mana section end*/
+
+/*green mana section start*/
 .green {
+    display: block;
+    position: absolute;
+    left: 50px;
+    width: 500px;
+    top: 725px;
+    text-align: center;
     color: #9CD4AF;
 }
 
-.white {
-    color: #FFFBD6;
+.green ul {
+    display: inline-block;
+    text-align: left;
 }
+
+.green img {
+    border: 4px solid #9CD4AF;
+}
+/*green mana section end*/
+
+.trivia {
+    display: block;
+    position: absolute;
+    top: 1850px;
+}
+
+.trivia img {
+    border-radius: 0px;
+    height: 400px;
+}
+
 /*mtg section end*/
 
 /*fortnite section start*/
@@ -179,6 +255,7 @@ h1 {
     text-shadow: 0.063em 0.063em 0.13em red;
 }
 
+/*demogorgon section start*/
 .demogorgon {
     padding: 2%;
 }
@@ -202,7 +279,9 @@ h1 {
     float: right;
     right: 43%;
 }
+/*demogorgon section end*/
 
+/*lavawing section start*/
 .lava {
     position: relative;
     float: right;
@@ -229,7 +308,9 @@ h1 {
     float: right;
     width: 43em;
 }
+/*lavawing section end*/
 
+/*demon skull section start*/
 .skull {
     display: block;
     margin: auto;
@@ -251,6 +332,8 @@ h1 {
     right: 5.55em;
     top: -45em;
 }
+/*demon skull section end*/
+
 
 .bonus audio {
     position: relative;
@@ -258,8 +341,4 @@ h1 {
     right: 58.5%;
     top: -3.3em;
 }
-
-
-
-
 /*fortnite section end*/
